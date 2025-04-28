@@ -1,0 +1,168 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5906631632416806105
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2287735746849500328}
+  - component: {fileID: 7426991225642735052}
+  m_Layer: 0
+  m_Name: QuizManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2287735746849500328
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5906631632416806105}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7426991225642735052
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5906631632416806105}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd92bc6420b25f040b50ff3288b8bf27, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  QnA:
+  - Question: Sino ang nagpayo na gumamit ng mga bilanggo at sapilitang paggawa upang
+      maghukay ng kanal sa Maynila?
+    Answers:
+    - Don Custodio
+    - 'Simoun '
+    - Padre Salvi
+    - Ben-Zayb
+    CorrectAnswers: 2
+  - Question: Ano ang inireklamo ni Donya Victorina habang nasa Bapor Tabo?
+    Answers:
+    - Mabagal ang barko
+    - 'Maingay ang makina '
+    - 'Marumi ang tubig '
+    - Maraming Pato
+    CorrectAnswers: 1
+  - Question: Bakit hindi tuloy-tuloy ang paglalayag ng Bapor Tabo?
+    Answers:
+    - Masisira ang makina
+    - Sasadsad sa bukiring lugar
+    - Mawawala sa direksyon
+    - Maraming pato sa daan
+    CorrectAnswers: 2
+  - Question: Ano ang iminungkahi ni Don Custodio upang linisin ang wawa?
+    Answers:
+    - 'Hukayin ang kanal '
+    - Ibenta ang lupa
+    - Paramihin ang pato
+    - Tabunan ang ilog
+    CorrectAnswers: 3
+  - Question: Sa ilalim ng kubyerta, sino ang nag-usap tungkol sa Akademya ng Wikang
+      Kastila?
+    Answers:
+    - 'Simoun, Don Custodio, Basilio '
+    - 'Padre Salvi, Basilio, Isagani '
+    - Isagani, Padre Irene, Simoun
+    - 'Basilio, Isagani, Kapitan Basilio '
+    CorrectAnswers: 4
+  - Question: 'Kanino binigyan ng dalawang kabayo ang mga estudyante? '
+    Answers:
+    - ' Padre Irene'
+    - Padre Florentino
+    - 'Padre Salvi '
+    - Padre Sibyla
+    CorrectAnswers: 1
+  - Question: Sino ang nag-alok ng bahay para sa Akademya ng Wikang Kastila?
+    Answers:
+    - Kapitan Basilio
+    - Simoun
+    - Macaraig
+    - 'Ben-Zayb '
+    CorrectAnswers: 3
+  - Question: Bakit tinanggihan nina Basilio at Isagani ang paanyaya ni Simoun na
+      uminom ng serbesa?
+    Answers:
+    - 'Hindi sila sanay uminom '
+    - Abala sila sa paglalakbay
+    - Ayaw nila kay Simoun
+    - Wala silang pera
+    CorrectAnswers: 3
+  - Question: Ano ang naramdaman ni Isagani tungkol kay Simoun?
+    Answers:
+    - Giliw
+    - Takot
+    - Galit
+    - Tuwa
+    CorrectAnswers: 2
+  - Question: Ayon sa kuwento ni Padre Florentino, sino ang dalagang naging alamat
+      dahil sa pagkabigo sa kasal?
+    Answers:
+    - Donya Victorina
+    - 'Donya Consolacion '
+    - Juli
+    - Donya Geronima
+    CorrectAnswers: 4
+  - Question: Ano ang nangyari sa buwaya ayon sa alamat ni Padre Salvi?
+    Answers:
+    - Naging bato
+    - Namatay sa gutom
+    - Nalunod
+    - 'Naging tao '
+    CorrectAnswers: 1
+  - Question: Bakit naging cabeza de barangay si Kabesang Tales?
+    Answers:
+    - 'Dahil sa utos ng prayle '
+    - Dahil sa yaman niya
+    - Dahil sa respeto ng mga kanayon
+    - 'Dahil sa pagkapanalo sa kaso '
+    CorrectAnswers: 3
+  - Question: 'Ano ang matinding iniisip ni Simoun habang nakatanaw sa lawa? '
+    Answers:
+    - Ang alamat ng Malapad-na-Bato
+    - Ang kapalaran ni Ibarra
+    - 'Ang pagkabigo ng Akademya '
+    - Ang pagkawala ni Kabesang Tales
+    CorrectAnswers: 2
+  - Question: Bakit nawala si Tano, anak ni Kabesang Tales?
+    Answers:
+    - Tumakas siya
+    - Nagpakasal siya
+    - 'Nadukot siya '
+    - Napilitang magsundalo
+    CorrectAnswers: 4
+  - Question: 'Bakit nawalan ng ganang kumain si Basilio? '
+    Answers:
+    - Dahil sa balitang dinakip si Kabesang Tales
+    - 'Dahil sa hindi pag-usad ng Akademya '
+    - Dahil sa takot sa guwardiya sibil
+    - 'Dahil sa pagod sa paglalakbay '
+    CorrectAnswers: 1
+  options:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  currentQuestions: 0
+  QuestionTxt: {fileID: 0}
+  ScoreTxt: {fileID: 0}
+  score: 0
+  QuizPanel: {fileID: 0}
+  GoPanel: {fileID: 0}
+  canAnswer: 1
